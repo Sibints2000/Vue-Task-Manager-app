@@ -15,6 +15,7 @@ export default {
     },
     components: {
         Task,
-    }
+    },
+    emit: ['delete-task'],
 }
 </script>
